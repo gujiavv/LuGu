@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+            <string>HelveticaNeue-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hEa-c0-TXZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mfp-VO-dGI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GuLuLogo" translatesAutoresizingMaskIntoConstraints="NO" id="ooe-80-9Lz">
+                                <rect key="frame" x="83" y="199" width="209" height="169"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="209" id="3w4-V4-b8h"/>
+                                    <constraint firstAttribute="height" constant="169" id="zas-1O-T2u"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="噜咕" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tS2-i3-Yxi">
+                                <rect key="frame" x="137.5" y="233.5" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="0wR-sd-ZuO"/>
+                                    <constraint firstAttribute="width" constant="100" id="U9y-ic-cCs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LuGu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvn-no-Yzu">
+                                <rect key="frame" x="166.5" y="636" width="44" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.3186957165" green="0.6254618207" blue="0.59636712069999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" red="0.31764705879999999" green="0.79607843140000001" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ooe-80-9Lz" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-50" id="A1I-nI-nAg"/>
+                            <constraint firstItem="tS2-i3-Yxi" firstAttribute="centerY" secondItem="ooe-80-9Lz" secondAttribute="centerY" id="CJy-at-cS4"/>
+                            <constraint firstItem="tS2-i3-Yxi" firstAttribute="centerX" secondItem="ooe-80-9Lz" secondAttribute="centerX" id="EDs-WE-5ke"/>
+                            <constraint firstItem="Mfp-VO-dGI" firstAttribute="top" secondItem="dvn-no-Yzu" secondAttribute="bottom" constant="10" id="GUJ-IF-pE9"/>
+                            <constraint firstItem="dvn-no-Yzu" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hCY-IO-CpJ"/>
+                            <constraint firstItem="ooe-80-9Lz" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="zB5-dp-rtz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="GuLuLogo" width="209" height="169"/>
+    </resources>
+</document>
